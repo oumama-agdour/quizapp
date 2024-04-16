@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37302552047",
+    "project_id": "quizapp-agdour",
+    "storage_bucket": "quizapp-agdour.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37302552047:android:62a5c904ee3d69a498221a",
+        "android_client_info": {
+          "package_name": "com.example.quizapp_agdour"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjyQ3VNbrlDxICGaBBaQf7YG81Bli-r88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Qst4"
+    android:orientation="vertical"
+    android:layout_margin="25dp">
+
+    <TextView
+        android:id="@+id/quiz4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Quiz 4"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/q4"
+        />
+    <TextView
+        android:id="@+id/qst2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entant qu'automoboliste, vous
+        devez etre plus vigilant lorsque :"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp">
+
+
+        <RadioButton
+            android:id="@+id/arrete"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Le tramway est arrêté"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/circule"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Le tramway circule"
+            android:textSize="20sp" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/next1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="22sp"/>
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logoo" />
+
+</LinearLayout>
